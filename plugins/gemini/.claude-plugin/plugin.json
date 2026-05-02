@@ -1,0 +1,8 @@
+{
+  "name": "gemini",
+  "version": "0.1.0",
+  "description": "Use Gemini CLI from Claude Code to delegate tasks to Vesta — a senior engineering partner with persistent identity.",
+  "author": {
+    "name": "thoor"
+  }
+}

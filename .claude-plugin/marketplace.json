@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cli-rescue-cc",
+  "description": "CLI rescue plugins for delegating work to external coding agents — Qwen Code and Gemini CLI",
+  "owner": {
+    "name": "thoor"
+  },
+  "plugins": [
+    {
+      "name": "qwen",
+      "description": "Delegate substantial coding or investigation tasks to Qwen Code (free tier, 1000 req/day via OAuth). Uses Kimi 2.5.",
+      "category": "development",
+      "source": "./plugins/qwen"
+    },
+    {
+      "name": "gemini",
+      "description": "Delegate substantial coding or investigation tasks to Gemini CLI (Vesta). Senior engineering partner with persistent identity.",
+      "category": "development",
+      "source": "./plugins/gemini"
+    }
+  ]
+}

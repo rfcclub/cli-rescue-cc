@@ -1,0 +1,8 @@
+{
+  "name": "qwen",
+  "version": "0.1.0",
+  "description": "Use Qwen Code from Claude Code to review code or delegate tasks (free tier, 1000 req/day).",
+  "author": {
+    "name": "thoor"
+  }
+}
